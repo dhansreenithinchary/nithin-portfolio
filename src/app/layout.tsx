@@ -29,13 +29,13 @@ export const metadata: Metadata = {
   authors: [{ name: "Nithin Chary" }],
   creator: "Nithin Chary",
 
-  metadataBase: new URL("https://dhanasreenithinchary.vercel.app"),
+  metadataBase: new URL("https://nithin-portfolio-nu.vercel.app/"),
 
   openGraph: {
     title: "Nithin Chary | Web Developer",
     description:
       "Modern web developer focused on performance, clean UI, and scalable solutions.",
-    url: "https://dhanasreenithinchary.vercel.app",
+    url: "https://nithin-portfolio-nu.vercel.app/",
     siteName: "Nithin Chary Portfolio",
     images: [
       {

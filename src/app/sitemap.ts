@@ -1,7 +1,7 @@
 export default function sitemap() {
   return [
     {
-      url: "https://dhanasreenithinchary.vercel.app",
+      url: "https://nithin-portfolio-nu.vercel.app/",
       lastModified: new Date(),
     },
   ];

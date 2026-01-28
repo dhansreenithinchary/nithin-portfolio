@@ -37,7 +37,7 @@ export default function Footer() {
             {[
               {
                 icon: Github,
-                link: "https://github.com/",
+                link: "https://vercel.com/dhanasree-nithin-charys-projects",
               },
               {
                 icon: Linkedin,

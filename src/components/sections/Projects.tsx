@@ -99,7 +99,7 @@ const CARD_WIDTH = 420;
 const AUTOPLAY_DELAY = 4000;
 
 // 🔁 duplicate projects for looping
-const loopedProjects = [...projects, ...projects, ...projects];
+const loopedProjects = [...projects, ...projects, ...projects, ...projects, ...projects, ...projects, ...projects, ...projects, ...projects, ...projects, ...projects];
 const START_INDEX = projects.length;
 
 export const metadata: Metadata = {
@@ -168,7 +168,7 @@ export default function Projects() {
 
       {/* CAROUSEL */}
       <div className="relative overflow-hidden" onMouseEnter={() => setPaused(true)} onMouseLeave={() => setPaused(false)}>
-        <motion.div className="flex gap-10"
+        <motion.div className="flex gap-10 justify-center"
             animate={{ x: -(active * CARD_WIDTH) }}
             transition={{ type: "spring", stiffness: 120, damping: 20 }}
             drag="x"

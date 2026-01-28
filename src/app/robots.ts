@@ -4,6 +4,6 @@ export default function robots() {
       userAgent: "*",
       allow: "/",
     },
-    sitemap: "https://dhanasreenithinchary.vercel.app/sitemap.xml",
+    sitemap: "https://nithin-portfolio-nu.vercel.app/sitemap.xml",
   };
 }
