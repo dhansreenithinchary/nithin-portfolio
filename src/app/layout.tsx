@@ -3,6 +3,7 @@ import { Rajdhani } from "next/font/google";
 import BackToTop from "@/components/BackToTop";
 import { Toaster } from "react-hot-toast";
 import type { Metadata } from "next";
+import { Analytics } from "@vercel/analytics/next"
 
 const rajdhani = Rajdhani({
   subsets: ["latin"],
@@ -73,6 +74,8 @@ export default function RootLayout({
       <body className={rajdhani.variable}>
         {children}
         <BackToTop />
+
+        <Analytics />
 
         <Toaster
           position="top-right"
