@@ -126,7 +126,7 @@ export default function Projects() {
   const [selected, setSelected] = useState(0);
 
   const [emblaRef, emblaApi] = useEmblaCarousel(
-    { loop: true, align: "center" },
+    { loop: true, align: "start" },
     [Autoplay({ delay: 4000, stopOnInteraction: true })]
   );
 
@@ -151,7 +151,7 @@ export default function Projects() {
           background:"radial-gradient(circle, rgba(var(--primary-rgb), .18), rgba(var(--primary-rgb), .08) 40%, transparent)",
         }}
       />
-
+      
       {/* HEADER */}
       <motion.div className="relative container-80 text-center mb-10" variants={fadeUpContainer} initial="hidden" whileInView="show" viewport={{ once: true }}>
         <motion.p variants={fadeUpItem} className="text-sm font-semibold tracking-widest text-emerald-400 mb-2">
