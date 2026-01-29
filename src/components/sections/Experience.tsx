@@ -105,7 +105,7 @@ export default function ExperienceHorizontal() {
                 </div>
 
                 {/* CARD (EQUAL HEIGHT FIX) */}
-                <div className="mt-10 w-full flex flex-col backdrop-blur bg-[#0f2f28]/60 border border-white/10 rounded-lg p-6 relative">
+                <div className="mt-10 w-full flex flex-col backdrop-blur border border-white/10 rounded-lg p-6 relative">
                 {/* CORNER ACCENTS */}
                 <span className="absolute top-0 left-0 w-3 h-3 border-t border-l border-emerald-400/40" />
                 <span className="absolute bottom-0 right-0 w-3 h-3 border-b border-r border-emerald-400/40" />

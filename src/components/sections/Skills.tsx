@@ -103,7 +103,7 @@ export default function SkillsAlt() {
               {/* SKILL GRID */}
               <div className="grid grid-cols-2 sm:grid-cols-2 gap-4">
                 {group.items.map((skill, idx) => (
-                  <div key={idx} className="relative px-4 py-3 text-sm text-gray-300 border border-white/10 rounded-md backdrop-blur bg-[#0f2f28]/60 hover:-translate-y-1 transition">
+                  <div key={idx} className="relative px-4 py-3 text-sm text-gray-300 border border-white/10 rounded-md backdrop-blur hover:-translate-y-1 transition">
                     {/* CORNER ACCENTS (LOCKED STYLE) */}
                     <span className="absolute top-0 left-0 w-2 h-2 border-t border-l border-emerald-400/40" />
                     <span className="absolute bottom-0 right-0 w-2 h-2 border-b border-r border-emerald-400/40" />

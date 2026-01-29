@@ -94,7 +94,7 @@ export default function Navbar() {
 
         {/* DESKTOP ACTION */}
         <a
-          href="/resume.pdf"
+          href="/Nithin-Resume-2026.pdf"
           target="_blank"
           className="hidden md:inline-flex px-5 py-2 text-sm font-semibold bg-emerald-400 text-black hover:bg-emerald-300 transition"
         >

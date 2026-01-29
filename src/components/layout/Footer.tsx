@@ -36,10 +36,6 @@ export default function Footer() {
           <div className="flex items-center gap-5">
             {[
               {
-                icon: Github,
-                link: "https://vercel.com/dhanasree-nithin-charys-projects",
-              },
-              {
                 icon: Linkedin,
                 link: "https://linkedin.com/in/dhanasree-nithin-chary-a199ba381",
               },

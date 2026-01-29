@@ -26,6 +26,36 @@ const fadeUpItem: Variants = {
 
 const projects = [
   {
+    title: "PRIZMABRIXX — Company Website",
+    desc: "Official corporate website representing PRIZMABRIXX’s brand identity, services, and digital capabilities.",
+    image: "/projects/prizmabrixx.png",
+    live: "https://prizmabrixx.in/index.php",
+    details: [
+      "Designed and developed the official company website aligned with brand vision and business strategy",
+      "Structured service offerings to clearly communicate branding, digital, and marketing solutions",
+      "Focused on professional UI/UX to establish trust and credibility for enterprise clients",
+      "Built a fully responsive experience optimized for desktop, tablet, and mobile devices",
+      "Collaborated with internal teams to align content, design, and operational goals",
+      "Ensured scalability and maintainability for long-term business growth",
+      "Played a dual role by connecting design decisions with operational strategy"
+    ],
+  },
+  {
+    title: "Dynamix Web Ads — Company Website",
+    desc: "Conversion-focused digital marketing agency website designed to generate leads and showcase services.",
+    image: "/projects/dynamixwebads.png",
+    live: "https://dynamixwebads.com/home",
+    details: [
+      "Designed a lead-generation focused website for a digital marketing and advertising agency",
+      "Clearly presented marketing services, workflows, and value propositions",
+      "Implemented strong call-to-actions (CTAs) to guide users toward enquiries",
+      "Optimized the website with a mobile-first responsive design approach",
+      "Applied SEO-friendly structure for better discoverability and performance",
+      "Balanced visual appeal with clarity to reflect a performance-driven agency mindset",
+      "Positioned the website as a digital sales asset rather than just an informational site"
+    ],
+  },
+  {
     title: "GK Zenith – Virtual Simulation",
     desc: "Interactive real-estate availability and 360° apartment walkthrough platform.",
     image: "/projects/gkzenith.png",
@@ -54,7 +84,7 @@ const projects = [
     ],
   },
   {
-    title: "Sunstone Abroad",
+    title: "Sunstone MBBS Abroad",
     desc: "Education consultancy platform guiding students pursuing MBBS abroad.",
     image: "/projects/sunstoneabroad.png",
     live: "https://sunstoneabroad.com",
@@ -80,7 +110,7 @@ const projects = [
     ],
   },
   {
-    title: "Wxer Wealth",
+    title: "Wxer Wealth Management",
     desc: "Financial services platform focused on unlisted stocks and wealth management.",
     image: "/projects/wxerwealth.png",
     live: "https://wxerwealth.com",
@@ -235,7 +265,6 @@ export default function Projects() {
         })}
       </div>
 
-
       {openProject && (
         <div className="fixed inset-0 z-50 flex items-center justify-center">
             {/* BACKDROP */}
@@ -265,7 +294,6 @@ export default function Projects() {
             </motion.div>
         </div>
       )}
-
 
       {/* BOTTOM DIVIDER */}
       <div className="absolute bottom-0 left-0 w-full h-px bg-white/10" />
