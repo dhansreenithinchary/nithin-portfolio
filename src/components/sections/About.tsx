@@ -60,7 +60,7 @@ export default function AboutSplit() {
 
           {/* IMAGE WRAPPER (CLIPPED CONTENT ONLY) */}
           <div className="relative rounded-lg overflow-hidden bg-[#0000001a]">
-            <Image src="/about1.png" alt="Web developer portrait" width={640} height={480} className="w-full h-full object-cover"/>
+            <Image src="/about.png" alt="Web developer portrait" width={640} height={480} className="w-full h-full object-cover"/>
           </div>
         </motion.div>
 
