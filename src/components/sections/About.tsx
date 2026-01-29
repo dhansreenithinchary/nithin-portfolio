@@ -24,7 +24,7 @@ const item: Variants = {
 
 export default function AboutSplit() {
   return (
-    <section id="about" className="relative py-24"
+    <section id="about" className="relative py-12"
       style={{
         background:"linear-gradient(to bottom right,var(--default-body-bg-color) 0%,var(--theme-bg-gradient) 25%,var(--default-body-bg-color) 100%)",
       }}
