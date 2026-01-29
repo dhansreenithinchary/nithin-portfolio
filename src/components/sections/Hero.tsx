@@ -2,6 +2,7 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Hero() {
   return (
@@ -47,14 +48,17 @@ export default function Hero() {
             </p>
 
             <div className="flex items-center gap-6">
-              <button className="px-6 py-3 bg-emerald-400 text-black font-medium rounded hover:bg-emerald-300 transition">
+              {/* View Projects */}
+              <Link href="#projects" className="px-6 py-3 bg-emerald-400 text-black font-medium rounded hover:bg-emerald-300 transition">
                 View Projects
-              </button>
+              </Link>
 
-              <button className="text-emerald-400 font-medium hover:underline">
+              {/* Contact Me */}
+              <Link href="#contact" className="text-emerald-400 font-medium hover:underline" >
                 Contact Me →
-              </button>
+              </Link>
             </div>
+
           </motion.div>
 
           {/* IMAGE */}
