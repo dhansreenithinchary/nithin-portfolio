@@ -20,7 +20,7 @@ const item: Variants = {
 
 const experiences = [
   {
-    role: "Web Designer & Operations Consultant",
+    role: "Web Designer",
     company: "Freelance",
     period: "MAY 2025 — Present",
     points: [
@@ -34,7 +34,7 @@ const experiences = [
   {
     role: "Web Designer & Operations Manager",
     company: "Prizmabrixx",
-    period: "SEP 2023 — FEB 2025",
+    period: "SEP 2023 — JAN 2026",
     points: [
       "Joined as a Web Designer and progressed to Operations Manager, handling both creative and managerial responsibilities.",
       "Designed and redesigned company and client websites with strong focus on branding, usability, and performance.",
